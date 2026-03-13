@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SkyBook - Flight Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>✈️ SkyBook Flight Booking</h1>
+
+<div class="box">
+
+<label>From</label>
+<input id="from" placeholder="City">
+
+<label>To</label>
+<input id="to" placeholder="City">
+
+<label>Date</label>
+<input type="date" id="date">
+
+<label>Passengers</label>
+<input type="number" id="passengers" min="1" value="1">
+
+<button onclick="searchFlights()">Search Flights</button>
+
+</div>
+
+<div id="results"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
